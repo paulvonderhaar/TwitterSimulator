@@ -25,9 +25,7 @@ def main():
 	train_function = textgen.train_from_file if train_cfg['line_delimited'] else textgen.train_from_largetext_file
 	textgen.train_from_file(file_name,num_epochs=30)
 	print(textgen.generate(5))
-    
 	textgen.save('blacklivesmatter.hdf5')
-
 
 
 

@@ -44,7 +44,6 @@ def main():
 				CleanedTweet=CleanedTweet.decode('ascii')
 				CleanedTweet=CleanedTweet.lower()
 				print(CleanedTweet)
-				
 				#Put the Cleaned Tweet into a CSV, which can be grabbed by pands
 				csvWriter.writerow((CleanedTweet))
 main()

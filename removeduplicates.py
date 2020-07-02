@@ -18,7 +18,6 @@ def main():
 		myfile.append([temp])
 	f.close()
 	f=open("blackLivesMatter.txt","w")
-	
 	for line in myfile:
 		f.write(line[0]+"\n")
 main()
